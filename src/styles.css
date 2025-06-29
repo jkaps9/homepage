@@ -7,7 +7,7 @@
 body > *,
 main > * {
   /* For development purposes only */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* General styling */
@@ -82,5 +82,48 @@ header div {
     right: 0;
     margin: auto;
     width: fit-content;
+  }
+}
+
+/* MAIN */
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-bottom: 12px;
+  }
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 350px;
+  max-width: 300px;
+  box-shadow: 4px 4px 5px #d3d3d3;
+  .screenshot {
+    height: 200px;
+    background-color: rebeccapurple;
+    color: white;
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav ul {
+    gap: 8px;
+
+    svg {
+      height: 20px;
+    }
+  }
+
+  p {
+    margin: 0 24px;
   }
 }
