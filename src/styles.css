@@ -61,13 +61,14 @@ img {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 16px;
+  gap: 24px;
 }
 
 svg {
   display: block;
   fill: #000;
-  height: 28px;
+  height: 36px;
+  cursor: pointer;
 }
 
 p {
@@ -139,7 +140,7 @@ main section {
     gap: 8px;
 
     svg {
-      height: 20px;
+      height: 28px;
     }
   }
 
