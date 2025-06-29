@@ -10,6 +10,7 @@ main > * {
   border: 1px solid red;
 }
 
+/* General styling */
 body {
   display: flex;
   flex-direction: column;
@@ -22,6 +23,10 @@ body > * {
   width: 100%;
   max-width: 1600px;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header,
@@ -32,8 +37,6 @@ footer {
 
 main {
   flex: 1;
-  display: flex;
-  flex-direction: column;
 }
 
 section {
@@ -44,4 +47,40 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+svg {
+  display: block;
+  fill: #000;
+  height: 28px;
+}
+
+p {
+  max-width: 70ch;
+}
+
+/* HEADER */
+
+header p {
+  margin: 8px 0 16px;
+}
+
+header div {
+  position: relative;
+  margin-bottom: 18px;
+  h1 {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+  }
 }
