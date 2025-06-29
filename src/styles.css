@@ -96,17 +96,26 @@ main section {
   }
 }
 
+.project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
 .project {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  height: 350px;
+  gap: 20px;
+  height: 450px;
   max-width: 300px;
   box-shadow: 4px 4px 5px #d3d3d3;
+
   .screenshot {
-    height: 200px;
-    background-color: rebeccapurple;
+    height: 275px;
     color: white;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
   }
 
   .row {
@@ -126,4 +135,28 @@ main section {
   p {
     margin: 0 24px;
   }
+}
+
+.project:nth-child(1) .screenshot {
+  background-color: rebeccapurple;
+}
+
+.project:nth-child(2) .screenshot {
+  background-color: orange;
+}
+
+.project:nth-child(3) .screenshot {
+  background-color: #008000;
+}
+
+.project:nth-child(4) .screenshot {
+  background-color: #d64da2;
+}
+
+.project:nth-child(5) .screenshot {
+  background-color: #2da0ff;
+}
+
+.project:nth-child(6) .screenshot {
+  background-color: #016101;
 }
