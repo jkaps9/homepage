@@ -355,3 +355,14 @@ footer {
     }
   }
 }
+
+@media (min-width: 900px) {
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-bg {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 100%);
+  }
+}
