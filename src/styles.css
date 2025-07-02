@@ -318,6 +318,10 @@ footer {
 
     .info {
       gap: 20px;
+
+      p:first-of-type {
+        font-size: 1rem;
+      }
     }
 
     .info h2,
