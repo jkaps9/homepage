@@ -67,7 +67,7 @@ svg {
 }
 
 p {
-  max-width: 70ch;
+  max-width: 60ch;
 }
 
 h2 {
@@ -356,21 +356,34 @@ footer {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   header {
     display: flex;
     flex-direction: row;
+    padding: 64px 64px 0;
+    nav {
+      display: block;
+      justify-self: flex-end;
+
+      svg {
+        height: 32px;
+      }
+    }
   }
 
   .img-wrapper {
     transform: scale(1.1);
     margin-right: -18px;
     img {
-      max-width: 450px;
+      max-width: 400px;
     }
   }
 
   .header-bg {
     clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 100%);
+  }
+
+  .about-me {
+    padding-left: 64px;
   }
 }
