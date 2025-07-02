@@ -226,3 +226,24 @@ footer {
     margin-top: 56px;
   }
 }
+
+@media (min-width: 650px) {
+  header {
+    display: block;
+    img {
+      max-width: 350px;
+    }
+  }
+
+  .img-wrapper {
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 0;
+  }
+
+  .about-me {
+    display: block;
+    padding: 24px;
+    box-shadow: 2px 2px 12px #666;
+  }
+}
