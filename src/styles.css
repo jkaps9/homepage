@@ -306,4 +306,30 @@ footer {
   .project {
     margin-bottom: 32px;
   }
+
+  /* FOOTER */
+  footer {
+    flex-direction: row;
+
+    .info {
+      gap: 20px;
+    }
+
+    .info h2,
+    .info nav {
+      align-self: flex-start;
+    }
+
+    .info nav ul {
+      gap: 24px;
+    }
+
+    .info nav svg {
+      height: 24px;
+    }
+
+    .picture {
+      margin-top: 0;
+    }
+  }
 }
