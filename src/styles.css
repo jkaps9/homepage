@@ -228,15 +228,24 @@ footer {
 }
 
 @media (min-width: 650px) {
+  body > * {
+    padding: 40px;
+  }
+
   header {
     display: block;
+
+    p {
+      font-size: 1rem;
+    }
   }
 
   .img-wrapper {
     float: left;
     margin-right: 18px;
     margin-bottom: 0;
-
+    margin: -18px 18px 0 -18px;
+    z-index: 10;
     img {
       max-width: 350px;
     }
