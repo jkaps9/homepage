@@ -361,14 +361,6 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 64px 64px 0;
-    nav {
-      display: block;
-      justify-self: flex-end;
-
-      svg {
-        height: 32px;
-      }
-    }
   }
 
   .img-wrapper {
@@ -385,5 +377,22 @@ footer {
 
   .about-me {
     padding-left: 64px;
+
+    h2 {
+      justify-self: flex-start;
+    }
+
+    p {
+      margin: 18px 0;
+    }
+
+    nav {
+      display: block;
+      justify-self: flex-end;
+
+      svg {
+        height: 28px;
+      }
+    }
   }
 }
