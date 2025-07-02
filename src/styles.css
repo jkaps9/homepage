@@ -307,6 +307,10 @@ footer {
 
   .project {
     margin-bottom: 32px;
+    max-width: 265px;
+    .screenshot {
+      font-size: 2.5rem;
+    }
   }
 
   /* FOOTER */
@@ -394,6 +398,10 @@ footer {
         height: 28px;
       }
     }
+  }
+
+  main section {
+    margin-bottom: 56px;
   }
 
   footer {
