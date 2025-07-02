@@ -253,6 +253,7 @@ footer {
     padding: 0 48px;
   }
 
+  /* HEADER */
   header {
     display: block;
     padding-top: 40px;
@@ -288,5 +289,21 @@ footer {
     display: block;
     padding: 24px;
     box-shadow: 2px 2px 12px #666;
+  }
+
+  /* MAIN */
+  main h2 {
+    align-self: flex-start;
+  }
+
+  .project-container {
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .project {
+    margin-bottom: 32px;
   }
 }
