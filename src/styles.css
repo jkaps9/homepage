@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --accent-color: #2da0ff;
+}
+
 /* General styling */
 body {
   display: flex;
@@ -96,7 +100,7 @@ header {
   inset: 0;
   z-index: 0;
   clip-path: polygon(0% 0%, 100% 0%, 100% 25%, 0% 50%);
-  background-color: #2da0ff;
+  background-color: var(--accent-color);
 }
 
 .about-me {
@@ -198,7 +202,7 @@ main section {
 }
 
 .project:nth-child(5) .screenshot {
-  background-color: #2da0ff;
+  background-color: var(--accent-color);
 }
 
 .project:nth-child(6) .screenshot {
