@@ -207,7 +207,6 @@ main section {
 
 /* FOOTER */
 footer {
-  padding: 0;
   background-color: rgb(23, 161, 224);
   color: #fff;
   .info {
