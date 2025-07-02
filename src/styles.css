@@ -88,6 +88,9 @@ header {
   }
 }
 
+.img-wrapper img {
+  max-width: 350px;
+}
 .header-bg {
   position: absolute;
   inset: 0;
@@ -247,11 +250,17 @@ footer {
 
 @media (min-width: 650px) {
   body > * {
-    padding: 40px;
+    padding: 0 48px;
   }
 
   header {
     display: block;
+    padding-top: 40px;
+
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+    }
 
     p {
       font-size: 1rem;
