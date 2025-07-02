@@ -246,6 +246,10 @@ footer {
   .picture {
     margin-top: 56px;
   }
+
+  .icon {
+    display: none;
+  }
 }
 
 @media (min-width: 650px) {
@@ -310,6 +314,7 @@ footer {
   /* FOOTER */
   footer {
     flex-direction: row;
+    align-items: flex-start;
 
     .info {
       gap: 20px;
@@ -329,7 +334,22 @@ footer {
     }
 
     .picture {
-      margin-top: 0;
+      margin: 15px 0;
+    }
+
+    .icon {
+      display: block;
+    }
+
+    .phone-number,
+    .email {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      svg {
+        fill: #fff;
+      }
     }
   }
 }
