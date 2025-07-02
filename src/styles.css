@@ -395,4 +395,28 @@ footer {
       }
     }
   }
+
+  footer {
+    .info {
+      padding: 30px 15px;
+      gap: 36px;
+      margin-right: 24px;
+      h2 {
+        font-size: 2.5rem;
+      }
+      p,
+      p:first-of-type {
+        font-size: 1.4rem;
+      }
+
+      nav svg {
+        height: 32px;
+      }
+    }
+
+    .picture {
+      margin: 30px 0;
+      max-width: 400px;
+    }
+  }
 }
